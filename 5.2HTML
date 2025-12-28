@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Nadia Jackson | Digital CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Nadia Jackson</h1>
+        <h3>Mechanical Engineering Student</h3>
+        <img src="profile.jpg" alt="Profile picture of Nadia Jackson" width="150">
+        <p>
+            <a href="https://www.linkedin.com/in/NadiaJackson" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/loconana04-coder" target="_blank">GitHub</a> |
+            <a href="mailto:loconana04@gmail.com">Email Me</a>
+        </p>
+    </header>
+
+    <main>
+        <section id="summary">
+            <h2>Professional Summary</h2>
+            <p>
+                Mechanical Engineering student at <strong>Embry-Riddle Aeronautical University</strong> with a strong foundation in 
+                design and manufacturing. Originally from Ohio and currently based in Florida, I am focused on 
+                computational tools and programming languages to solve complex engineering challenges.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>BS in Mechanical Engineering</strong> – Embry-Riddle Aeronautical University (2023–2027)</li>
+                <li><strong>High School Diploma</strong> – Lakota West High School (2019–2023)</li>
+            </ul>
+        </section>
+
+        <section id="coursework">
+            <h2>Technical Proficiency</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Subject/Software</th>
+                        <th>Proficiency Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Design Software</td>
+                        <td>CATIA V5 & SolidWorks</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Programming</td>
+                        <td>MatLab</td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>Manufacturing</td>
+                        <td>CNC Milling & Manual Lathe</td>
+                        <td>Hands-on</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div id="contact-form-container">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="How can I help you?" required></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
