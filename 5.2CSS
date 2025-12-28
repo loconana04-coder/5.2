@@ -1,0 +1,138 @@
+/* EXTERNAL STYLESHEET: Nadia Jackson CV
+   Theme: (Embry-Riddle Blue & Gold)
+*/
+
+/* Global Styles & Typography */
+body {
+    /* Primary font with fallbacks for maximum compatibility */
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f9; /* Light grey-blue background */
+    color: #222; /* High contrast dark grey for readability */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Link Styling */
+a {
+    color: #0056b3; /* Distinct blue for links */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffcc00; /* Changes to Gold on hover */
+    text-decoration: underline;
+}
+
+/* Heading Hierarchy */
+h1 {
+    font-size: 3rem; /* Largest for primary importance */
+    text-transform: uppercase; /* Transformation */
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text Shadow for depth */
+    margin-bottom: 0.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #003366; /* ERAU Blue */
+    border-bottom: 3px solid #ffcc00; /* Gold accent line */
+    padding-bottom: 5px;
+    margin-top: 40px;
+    text-align: left; /* Text Alignment */
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic; /* Text Styling */
+}
+
+/* Header Section */
+header {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header img {
+    border-radius: 50%;
+    border: 5px solid #ffcc00; /* Gold border around profile pic */
+    margin-top: 15px;
+}
+
+header p a {
+    color: #ffffff; /* Contrast link color inside blue header */
+    font-size: 0.9rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Form Styling */
+#contact-form-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit; /* form matches page font */
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #ffcc00;
+    color: #003366;
+}
+
+/* Comment: Section for future responsiveness could go here */
